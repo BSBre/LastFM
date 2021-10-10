@@ -1,5 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="fm.last.last_fm">
+
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+
    <application
         android:label="last_fm"
         android:icon="@mipmap/ic_launcher">
